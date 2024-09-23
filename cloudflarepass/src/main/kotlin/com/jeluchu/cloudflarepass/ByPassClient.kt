@@ -1,12 +1,12 @@
-package com.ead.lib.cloudflare_bypass
+package com.jeluchu.cloudflarepass
 
 import android.graphics.Bitmap
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.ead.lib.cloudflare_bypass.core.Scripts
-import com.ead.lib.cloudflare_bypass.core.system.extensions.evaluateJavascript
-import com.ead.lib.cloudflare_bypass.core.system.extensions.isCloudFlareByPassTitle
-import com.ead.lib.cloudflare_bypass.util.Thread
+import com.jeluchu.cloudflarepass.core.Scripts
+import com.jeluchu.cloudflarepass.core.system.extensions.evaluateJavascript
+import com.jeluchu.cloudflarepass.core.system.extensions.isCloudFlareByPassTitle
+import com.jeluchu.cloudflarepass.util.Thread
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

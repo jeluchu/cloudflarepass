@@ -6,10 +6,10 @@ plugins {
 
 android {
     namespace = "com.ead.lib.cloudflare_bypass"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
-        minSdk = 26
+        minSdk = 21
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -25,11 +25,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 }
 
@@ -40,8 +40,8 @@ publishing {
                 from(components["release"])
             }
 
-            groupId = "com.ead.lib"
-            artifactId = "CloudFlare-ByPass"
+            groupId = "com.jeluchu"
+            artifactId = "cloudflarepass"
             version = "0.0.1"
         }
     }

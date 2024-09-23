@@ -13,7 +13,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
-import com.ead.lib.cloudflare_bypass.ByPassClient
+import com.jeluchu.cloudflarepass.ByPassClient
 import com.ead.project.cloudflare_bypass.ui.theme.CloudFlareByPassTheme
 
 class MainActivity : ComponentActivity() {

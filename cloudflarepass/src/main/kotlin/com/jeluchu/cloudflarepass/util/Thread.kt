@@ -1,4 +1,4 @@
-package com.ead.lib.cloudflare_bypass.util
+package com.jeluchu.cloudflarepass.util
 
 import android.os.Handler
 import android.os.Looper

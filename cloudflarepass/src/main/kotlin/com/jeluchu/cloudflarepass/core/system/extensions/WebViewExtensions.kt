@@ -1,4 +1,4 @@
-package com.ead.lib.cloudflare_bypass.core.system.extensions
+package com.jeluchu.cloudflarepass.core.system.extensions
 
 import android.webkit.WebView
 

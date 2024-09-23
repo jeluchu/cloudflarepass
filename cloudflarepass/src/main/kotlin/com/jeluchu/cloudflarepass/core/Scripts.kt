@@ -1,4 +1,4 @@
-package com.ead.lib.cloudflare_bypass.core
+package com.jeluchu.cloudflarepass.core
 
 object Scripts {
 

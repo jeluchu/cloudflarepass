@@ -1,4 +1,4 @@
-package com.ead.lib.cloudflare_bypass
+package com.jeluchu.cloudflarepass
 
 import android.webkit.JavascriptInterface
 import java.util.concurrent.CountDownLatch
